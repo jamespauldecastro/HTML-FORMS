@@ -14,20 +14,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .main {
     margin-top: 20px;
-    text-align: center;
+    text-align: center; 
+    margin-top: 40vh;
 }
 
-.main p {
-    margin-top: 10px;
-}
-
-.main p a {
-    text-decoration: none;
-    color: #5D6063;
+.main a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .speaker-form-header {
